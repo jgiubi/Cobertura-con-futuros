@@ -72,7 +72,7 @@ README.md
 
 2. **Vf histórico:** el número de contratos rolling se calcula usando el precio diario del índice como proxy contemporáneo del futuro.
 
-3. **R² bajo (0.13):** el principal driver de riesgo de una cartera de acciones argentinas no es el mercado americano sino el riesgo país (político, macroeconómico, cambiario). La cobertura con E-mini neutraliza solo el componente de riesgo sistémico global (~13% de la varianza). Una cobertura óptima requeriría instrumentos indexados al riesgo soberano argentino (CDS, futuros de tipo de cambio).
+3. **R² bajo (0.13):** el principal driver de riesgo de una cartera de acciones argentinas no es el mercado americano sino el riesgo país (político, macroeconómico, cambiario). La cobertura con E-mini neutraliza solo el componente de riesgo sistémico global (~13% de la varianza). Una cobertura óptima requeriría instrumentos indexados al riesgo soberano argentino (CDS, futuros de tipo de cambio). Un R² bajo no invalida la estrategia: cuantifica exactamente qué porción del riesgo puede ser neutralizada con este instrumento, y qué porción responde a factores no cubiertos (riesgo soberano, cambiario).
 
 4. **Beta no constante:** el beta rolling muestra un incremento estructural post-2023, atribuible a la reducción del riesgo país tras el cambio de gobierno, lo que aumentó la correlación de las acciones con el mercado global.
 
